@@ -5,16 +5,16 @@ const posts = [
         image: 'image_11.jpg',
         content:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
-        tags: ["html", "css"],
+        tags: ["fantasy", "libri"],
         published: true,
     },
     {
         id: 2,
         title: "Harry Potter e la camera dei segreti",
-        image: '',
+        image: "",
         content:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
-        tags: ["js", "css"],
+        tags: ["adolescenziale", "libri"],
         published: true,
     },
     {
@@ -23,7 +23,7 @@ const posts = [
         image: 'image_3.jpg',
         content:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
-        tags: ["js", "php"],
+        tags: ["adolescenziale", "magia"],
         published: true,
     },
     {
@@ -32,8 +32,8 @@ const posts = [
         image: 'image_4_.jpg',
         content:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
-        tags: ["html"],
-        published: false,
+        tags: ["fantasy", "adolescenziale"],
+        published: true,
     },
     {
         id: 5,
@@ -41,8 +41,8 @@ const posts = [
         image: 'image_5.jpg',
         content:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
-        tags: ["html"],
-        published: false,
+        tags: ["fantasy", "magia"],
+        published: true,
     },
     {
         id: 6,
@@ -50,7 +50,7 @@ const posts = [
         image: 'image_6.jpg',
         content:
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
-        tags: ["html"],
+        tags: ["libri", "adolescenziale"],
         published: false,
     },
     {
@@ -59,8 +59,8 @@ const posts = [
         image: 'img_7.jpeg',
         content:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
-        tags: ["html"],
-        published: false,
+        tags: ["fantasy", "magia" ],
+        published: true,
       },
       {
         id: 8,
@@ -68,7 +68,7 @@ const posts = [
         image: 'Harry-Potter-Saga.jpg',
         content:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
-        tags: ["html"],
+        tags: ["libri"],
         published: false,
       },
 ];

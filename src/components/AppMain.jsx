@@ -8,18 +8,22 @@ function AppMain() {
     return (
         <>
             <main>
-                {posts.map((curPost) => 
-                    <div  key = {curPost.id} className={style.row}>
-                        <AppPost
-                            image = {`/images/${curPost.image}`}
-                            title = {curPost.title}
-                            content = {curPost.content}
-                            tags = {curPost.tags}
-                            published = {curPost.published}
-                        />
-                    </div>
-                )
-                }
+                <div className={style.row}>
+
+                    {posts.map((curPost) =>
+                        curPost.published &&
+                        <div key={curPost.id}>
+                            <AppPost
+                                image={curPost.image ? `/images/${curPost.image}` : "/images/unnamed.png"}
+                                title={curPost.title}
+                                content={curPost.content}
+                                tags={curPost.tags}
+                                published={curPost.published}
+                            />
+                        </div>
+                    )
+                    }
+                </div>
             </main>
         </>
     )
