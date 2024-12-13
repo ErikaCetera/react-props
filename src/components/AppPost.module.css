@@ -1,0 +1,22 @@
+.m{
+    margin: 10px;
+   }
+
+.post {
+    width: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+}
+
+
+
+.post button {
+    padding: 5px;
+    background-color: #59100b; 
+    color: #ecddb0;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}

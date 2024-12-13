@@ -1,0 +1,30 @@
+/* RESET */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+
+body{
+    background-color: #ecddb0;
+}
+
+.title{
+    text-align: center;
+    margin: 20px;
+    color: #59100b;
+}
+
+footer{
+    margin-top: 20px;
+    padding: 30px;
+    text-align: center;
+    background-color: #59100b;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
